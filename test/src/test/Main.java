@@ -13,6 +13,7 @@ public class Main {
 		a.multiply(b).plus(new Fraction(5,6)).print();
 		a.print();
 		b.print();
+		in.close();
 	}
 
 }
@@ -34,6 +35,7 @@ class Fraction{
 		return new Fraction(this.up*r.up, this.down*r.down);
 	}
 	void print() {
+		// 做简化输出
 		this.simple();
 		if (this.down == 1) {
 			System.out.println(this.up);

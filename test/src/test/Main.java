@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		//读取输入值
 		Scanner in = new Scanner(System.in);
 		Fraction a = new Fraction(in.nextInt(), in.nextInt());
 		Fraction b = new Fraction(in.nextInt(),in.nextInt());
